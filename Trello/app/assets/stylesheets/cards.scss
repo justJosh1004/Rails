@@ -1,0 +1,44 @@
+// Place all the styles related to the Cards controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+  font-size: 24px;
+}
+
+.index_cards {
+  background-color: #0971B2;
+  border-radius: 8px;
+  padding: 5px 10px;
+  position: relative;
+  display: inline-block;
+  margin: 2px;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text {
+  padding-left: 30px;
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.card_options {
+  border-radius: 8px;
+  background-color: #B21212;
+  text-align: center;
+  width: auto;
+}
+
+a:hover {
+  color: white;
+}

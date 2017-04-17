@@ -1,0 +1,30 @@
+<!-- <p>
+  <strong>Title:</strong>
+  <%= @card.title %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @card.text %>
+</p>
+
+<%= link_to 'Edit', edit_card_path(@card) %>
+<%= link_to 'Back', cards_path %> -->
+
+
+<div class="row">
+  <div class="col-sm-9">
+    Card <%= @card.id %>
+    <div class="row">
+      <div class="col-xs-8 col-sm-6">
+        <%= @card.title %>
+      </div>
+      <div class="col-xs-4 col-sm-6">
+        <%= @card.text %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= link_to 'Edit', edit_card_path(@card) %>
+<%= link_to 'Back', cards_path %>
